@@ -1,0 +1,25 @@
+export const BUSINESS = {
+  name: "TechDrive",
+  fullName: "Автосервіс TechDrive",
+  tagline: "Автосервіс на Гагаріна, 112",
+  city: "Харків",
+  address: "вул. Гагаріна 112, Харків",
+  phone: "+380663456789",
+  phoneDisplay: "+38 (066) 345-67-89",
+  phoneDial: "066 345 67 89",
+  telegram: "https://t.me/techdrive_kh",
+  telegramHandle: "@techdrive_kh",
+  viber: "viber://chat?number=%2B380663456789",
+  instagram: "https://www.instagram.com/techdrive.kharkiv",
+  instagramHandle: "@techdrive.kharkiv",
+  workHours: "Пн–Сб 08:00 – 20:00, Нд 09:00 – 17:00",
+  workHoursShort: "Пн–Сб 08:00–20:00 · Нд 09:00–17:00",
+  yearFounded: 2015,
+  mapEmbed: "https://www.google.com/maps?q=Gagarina+112+Kharkiv&hl=uk&output=embed",
+  usp: {
+    badge: "Діагностика 0 ₴ при ремонті",
+    title: "Безкоштовна діагностика при будь-якому ремонті",
+    note:
+      "Виявили проблему — приступаємо до ремонту. За саму діагностику не платите ні копійки.",
+  },
+};
