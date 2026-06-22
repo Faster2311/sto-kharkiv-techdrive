@@ -1,4 +1,5 @@
-// Кожне фото підібране окремо для секції — без перекриття між секціями
+// Кожне фото підібране окремо для секції — без перекриття між секціями.
+// Підписи портфоліо описують те, що дійсно видно на кадрі (не вигадані марки).
 import hero from "../assets/photos/pixabay_8138904.jpg";
 
 import problemBg from "../assets/photos/pixabay_2237497.jpg";
@@ -10,13 +11,13 @@ import svcBody from "../assets/photos/pixabay_5956464.jpg";
 import svcTire from "../assets/photos/pixabay_2875247.jpg";
 
 import portfolio1 from "../assets/photos/pixabay_2015636.jpg";
-import portfolio2 from "../assets/photos/pixabay_2918112.jpg";
+import portfolio2 from "../assets/photos/pixabay_1749633.jpg";
 import portfolio3 from "../assets/photos/pixabay_5956469.jpg";
-import portfolio4 from "../assets/photos/pixabay_1638594.jpg";
-import portfolio5 from "../assets/photos/pixabay_2783384.jpg";
-import portfolio6 from "../assets/photos/pixabay_7647805.jpg";
-import portfolio7 from "../assets/photos/pixabay_2829141.jpg";
-import portfolio8 from "../assets/photos/pixabay_1130653.jpg";
+import portfolio4 from "../assets/photos/pixabay_1751753.jpg";
+import portfolio5 from "../assets/photos/pixabay_2861853.jpg";
+import portfolio6 from "../assets/photos/pixabay_3691962.jpg";
+import portfolio7 from "../assets/photos/pixabay_2469429.jpg";
+import portfolio8 from "../assets/photos/pixabay_4503692.jpg";
 
 import ctaBg from "../assets/photos/pixabay_2954372.jpg";
 
@@ -38,43 +39,43 @@ export const PHOTOS = {
   portfolio: [
     {
       src: portfolio1,
-      caption: "Mercedes E-class · повне ТО після 100 000 км",
+      caption: "Передогляд перед ремонтом: повний кузовний об'їзд",
       tag: "ТО",
     },
     {
       src: portfolio2,
-      caption: "BMW M-серії · діагностика двигуна + чип-тюнінг",
-      tag: "Двигун",
+      caption: "Робота з гальмівною системою у боксі",
+      tag: "Гальма",
     },
     {
       src: portfolio3,
-      caption: "Volkswagen Passat · кузовні + перефарбування",
+      caption: "Перефарбування кузова у фарбувальній камері",
       tag: "Кузов",
     },
     {
       src: portfolio4,
-      caption: "ВАЗ-2107 · реставрація і повторний фарб",
-      tag: "Кузов",
+      caption: "Авто на підйомнику для огляду ходової",
+      tag: "Ходова",
     },
     {
       src: portfolio5,
-      caption: "Ford Mustang · ремонт коробки і вихлопу",
-      tag: "Двигун",
+      caption: "Заміна колеса і перевірка ступиці",
+      tag: "Шиномонтаж",
     },
     {
       src: portfolio6,
-      caption: "Renault Megane · заміна ременя ГРМ і помпи",
+      caption: "Робота під капотом: обслуговування двигуна",
       tag: "Двигун",
     },
     {
       src: portfolio7,
-      caption: "Lexus NX · гальмівні диски і колодки",
-      tag: "Гальма",
+      caption: "Підйомник у боксі — підготовка до діагностики",
+      tag: "Ходова",
     },
     {
       src: portfolio8,
-      caption: "Skoda Octavia · сезонна заміна гуми і розвал",
-      tag: "Шиномонтаж",
+      caption: "Ferrari у нашому боксі на плановому обслуговуванні",
+      tag: "Двигун",
     },
   ],
   about: [about1, about2, about3],
